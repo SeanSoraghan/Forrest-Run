@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B359B8C-5A5A-4801-9CD9-3F9A865E1DE2}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2B359B8C-5A5A-4801-9CD9-3F9A865E1DE2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Weapons" ID="{B51F338C-D3B6-4CA8-8C05-1B2C806966BB}" ShortID="696219768">
+					<ChildrenList>
+						<Event Name="RifleShot" ID="{75D928B1-3233-42AD-9DC0-650550826C6D}">
+							<ChildrenList>
+								<Action Name="" ID="{30602197-F8B8-438B-B579-C2B7FFAD2B5B}" ShortID="232892675">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RifleShots" ID="{6E91DC70-CA47-48F6-8A33-C9435F5080A6}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PistolShot" ID="{65F8E68A-A361-4294-A71D-F023B9E89497}">
+							<ChildrenList>
+								<Action Name="" ID="{BBAA96CC-EE6C-410C-97AB-70876A6BD06A}" ShortID="695732149">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PistolShots" ID="{EAF618F2-EB79-411F-BDC0-0476CFA81219}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ElectricityAttack" ID="{D2CFCB6F-3917-45CE-85E5-B7472A0308A5}">
+							<ChildrenList>
+								<Action Name="" ID="{9C5F909B-333F-4DFF-AC2D-CEB9C4FBE40A}" ShortID="236496575">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ElectricAttack" ID="{D7930196-EEC6-408A-B5C2-EF67D8E492E9}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{35E7CA84-270B-4426-BE7C-09070FBFF017}" ShortID="144951514">
+					<ChildrenList>
+						<Event Name="AmbienceTrigger" ID="{A8027482-D60C-4C79-AA4C-54DFA44DB35E}">
+							<ChildrenList>
+								<Action Name="" ID="{52B04924-8F01-4A87-AB02-AD0F7A8A7299}" ShortID="780521327">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AlienAmbience" ID="{DC23461D-612C-436D-89D7-FC993C3F06F0}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BirdChirp" ID="{6CE66820-1A50-4588-871D-94802D691C38}">
+							<ChildrenList>
+								<Action Name="" ID="{C32BDDE8-3BF7-4019-A409-38E7BD0D82BC}" ShortID="777109763">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chirps" ID="{A72B6129-79A4-404B-AA19-948C3E65CBA5}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music" ID="{5E83B3C5-A31E-4620-B427-116A55FB4FD5}">
+							<ChildrenList>
+								<Action Name="" ID="{2CB9CBAB-742D-4BA2-A901-750DE832AA8D}" ShortID="951725997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{D11B0D29-F9DF-4A29-B258-1D08ED2BE640}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Movement" ID="{9C10A8BF-C498-4972-B9A9-DC348BF88035}" ShortID="632181952">
+					<ChildrenList>
+						<Event Name="RevMovement" ID="{59DE247F-10A2-499A-A4D6-22A23B0CCC11}">
+							<ChildrenList>
+								<Action Name="" ID="{4160C975-F46A-4B66-8F04-4A274A20611B}" ShortID="339674094">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyRevMovement" ID="{2755BA19-BFE4-4D80-B941-946C6FB62854}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SphereMovement" ID="{C15755D1-9196-4969-8BD9-7D05B78EBB30}">
+							<ChildrenList>
+								<Action Name="" ID="{829DB650-D175-4914-A1A5-B897DB90A6C0}" ShortID="787437467">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemySphereMovement" ID="{823DF616-1B6D-49A6-B7D8-7FB0DC0F897E}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerFootstep" ID="{94D3FA9B-368F-48DC-9869-E84E1F1956CC}">
+							<ChildrenList>
+								<Action Name="" ID="{73546234-CB0B-4D2D-AC7E-E24CC3E6FF90}" ShortID="180206772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HumanStateFootsteps" ID="{4E4793E5-0FD9-4D32-B46F-2D72666CA61A}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorCreak" ID="{73E776EA-D3BB-4AA8-ADD4-8AE3241521EA}">
+							<ChildrenList>
+								<Action Name="" ID="{20DBD938-E67F-4C44-BB85-0A69B3590251}" ShortID="896734307">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DoorCreak" ID="{B8A64355-15CA-4652-A482-220D7889F0E8}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WoodenFrog" ID="{FCAB5516-7938-4734-B8E8-3BB7ECF5DDE4}">
+							<ChildrenList>
+								<Action Name="" ID="{64F0B886-55F0-4DCB-99BA-E5CAB7991AD5}" ShortID="236147368">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WoodenFrogCroaks" ID="{920703A4-1C44-4B86-A886-894BCD114467}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FrogCroak" ID="{76E240E4-9B34-4D01-B065-30297542D47D}">
+							<ChildrenList>
+								<Action Name="" ID="{A89C6230-2046-459F-9FCB-FC5CF7076214}" ShortID="173994419">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FrogCroak" ID="{0C996060-D736-41B5-93F9-086DFBA4CE54}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WoodenSpike" ID="{730DBD7C-ADB8-4905-99D8-8CD00F464317}">
+							<ChildrenList>
+								<Action Name="" ID="{C65EC9A5-B73E-4641-9436-1A0DD2910C6B}" ShortID="213493377">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WoodenSpikes" ID="{83079FDA-B6BD-4382-AD41-390996F7CBCB}" WorkUnitID="{26C5960B-50C3-4966-B277-43371976A22C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

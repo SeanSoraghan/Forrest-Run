@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA3C5CA0-5534-40AD-A983-D2A5E3F188CC}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{EA3C5CA0-5534-40AD-A983-D2A5E3F188CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="CharacterMovement" ID="{B644BDF1-20EF-497A-9C54-DAF77493F9FD}" ShortID="429049756">
+					<ChildrenList>
+						<GameParameter Name="CharacterSpeed" ID="{0775B07A-89E0-4661-A1BC-AE1F2B233F01}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="Dare" ID="{F212D3B3-C69D-4071-AB35-E481FCD0A3FE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

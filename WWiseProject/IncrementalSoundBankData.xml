@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{2BE36473-3EF6-49AD-B4D5-E1F6F69DA460}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Ambience" Hash="1035131898" Timestamp="131208443626381650"/>
+				<File Name="CharacterMovement" Hash="1223009439" Timestamp="131299838728435596"/>
+				<File Name="ForUnity" Hash="1653709822" Timestamp="131207624706678459"/>
+				<File Name="Init" Hash="1718699238" Timestamp="131208451669852265"/>
+				<File Name="Weapons" Hash="3118002193" Timestamp="131263433927906949"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="Ambience" Hash="3464156171" Timestamp="1523821348"/>
+				<File Name="CharacterMovement" Hash="2909663304" Timestamp="1523819324"/>
+				<File Name="Init" Hash="230045768" Timestamp="1523821348"/>
+				<File Name="Weapons" Hash="2229251238" Timestamp="1523811826"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2007454392" Timestamp="1523821348"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{82939D7C-9257-4D6D-A353-2BCBD1876B5C}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Ambience" Hash="1035131898" Timestamp="131208443630957621"/>
+				<File Name="CharacterMovement" Hash="4096410485" Timestamp="131299838736594946"/>
+				<File Name="ForUnity" Hash="1653709822" Timestamp="131207624707423897"/>
+				<File Name="Init" Hash="4238449446" Timestamp="131208451672348418"/>
+				<File Name="Weapons" Hash="3118002193" Timestamp="131263433929726607"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="Ambience" Hash="3464156171" Timestamp="1523821349"/>
+				<File Name="CharacterMovement" Hash="4243288889" Timestamp="1523819325"/>
+				<File Name="Init" Hash="3653617232" Timestamp="1523821349"/>
+				<File Name="Weapons" Hash="2229251238" Timestamp="1523811827"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3173758386" Timestamp="1523821349"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>
